@@ -1,0 +1,8 @@
+# Editor
+*.swp
+.DS_Store
+
+# Logs
+*.log
+
+# Nothing else yet
