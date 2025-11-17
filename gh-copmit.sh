@@ -6,7 +6,8 @@ set -euo pipefail
 # This script is discovered by gh CLI because it's named gh-<name> and is on PATH.
 
 # Defaults
-MODEL_DEFAULT="${GH_COMMIT_MODEL:-openai/gpt-4o-mini}"
+# Use a fast and low-cost model by default (based on local benchmark). Override with GH_COMMIT_MODEL.
+MODEL_DEFAULT="${GH_COMMIT_MODEL:-openai/gpt-4.1-nano}"
 LANG_DEFAULT="${GH_COMMIT_LANG:-en}"
 PUSH_DEFAULT="false"
 AUTO_INSTALL_DEFAULT="false"
@@ -19,7 +20,7 @@ Generates a high-quality Conventional Commit message and body from your STAGED c
 using GitHub Models (gh models) and creates the commit for you.
 
 Options:
-  -m, --model ID          Model ID to use (default: $GH_COMMIT_MODEL or openai/gpt-4o-mini)
+  -m, --model ID          Model ID to use (default: $GH_COMMIT_MODEL or openai/gpt-4.1-nano)
   -a, --all               Stage all changes (git add -A) before generating
       --push              Push after committing
       --dry-run           Show proposed commit without creating it
@@ -34,7 +35,7 @@ Environment:
 
 Examples:
   gh copmit --all --push
-  gh copmit -m openai/gpt-4o-mini --dry-run
+  gh copmit -m openai/gpt-4.1-nano --dry-run
   gh copmit --lang es
 EOF
 }
