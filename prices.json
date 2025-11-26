@@ -1,0 +1,32 @@
+{
+  "openai/gpt-4.1-nano": {
+    "in_per_1k": 0.0001,
+    "out_per_1k": 0.0004,
+    "source": "https://openai.com/pricing"
+  },
+  "openai/gpt-5-nano": {
+    "in_per_1k": 0.00005,
+    "out_per_1k": 0.0004,
+    "source": "https://openai.com/pricing"
+  },
+  "openai/gpt-5-mini": {
+    "in_per_1k": 0.00025,
+    "out_per_1k": 0.002,
+    "source": "https://openai.com/pricing"
+  },
+  "openai/gpt-4o-mini": {
+    "in_per_1k": 0.00015,
+    "out_per_1k": 0.0006,
+    "source": "https://openai.com/pricing"
+  },
+  "microsoft/phi-4-mini-instruct": {
+    "in_per_1k": null,
+    "out_per_1k": null,
+    "source": "https://github.com/orgs/community/discussions/ (GitHub Models pricing may vary; not publicly listed per-model)"
+  },
+  "mistral-ai/mistral-small-2503": {
+    "in_per_1k": 0.0003,
+    "out_per_1k": 0.0009,
+    "source": "https://mistral.ai/pricing#api-pricing"
+  }
+}
