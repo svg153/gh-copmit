@@ -1,0 +1,7 @@
+Model,Run,Millis,Status,InChars,OutChars,EstInTokens,EstOutTokens,InputMult,OutputMult,UnitPrice,TokenUnits,EstCostUSD
+openai/gpt-5-nano,1,13446,OK,920,203,230,51,0,0,0.00001,0.000000,
+openai/gpt-5-mini,1,10835,OK,920,345,230,87,0,0,0.00001,0.000000,
+openai/gpt-4.1-nano,1,2075,OK,920,230,230,58,0,0,0.00001,0.000000,
+openai/gpt-4o-mini,1,4867,OK,920,335,230,84,0.015,0.0075,0.00001,4.080000,
+microsoft/phi-4-mini-instruct,1,3360,OK,920,235,230,59,0.0075,0,0.00001,1.725000,
+mistral-ai/mistral-small-2503,1,2162,OK,920,215,230,54,0,0,0.00001,0.000000,

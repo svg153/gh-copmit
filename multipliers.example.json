@@ -1,0 +1,52 @@
+{
+  "openai/gpt-4o": {
+    "input_multiplier": 0.25,
+    "output_multiplier": 1.0,
+    "source": "https://docs.github.com/en/billing/reference/models-multipliers-and-costs"
+  },
+  "openai/gpt-4o-mini": {
+    "input_multiplier": 0.015,
+    "output_multiplier": 0.0075,
+    "source": "https://docs.github.com/en/billing/reference/models-multipliers-and-costs"
+  },
+  "openai/gpt-4.1-mini": {
+    "input_multiplier": 0.04,
+    "output_multiplier": 0.01,
+    "source": "https://docs.github.com/en/billing/reference/models-multipliers-and-costs"
+  },
+  "openai/gpt-4.1": {
+    "input_multiplier": 0.2,
+    "output_multiplier": 0.05,
+    "source": "https://docs.github.com/en/billing/reference/models-multipliers-and-costs"
+  },
+  "microsoft/phi-4-mini-instruct": {
+    "input_multiplier": 0.0075,
+    "output_multiplier": null,
+    "source": "https://docs.github.com/en/billing/reference/models-multipliers-and-costs"
+  },
+  "microsoft/phi-4": {
+    "input_multiplier": 0.0125,
+    "output_multiplier": null,
+    "source": "https://docs.github.com/en/billing/reference/models-multipliers-and-costs"
+  },
+  "openai/gpt-5-nano": {
+    "input_multiplier": null,
+    "output_multiplier": null,
+    "source": "(not listed yet - placeholder)"
+  },
+  "openai/gpt-5-mini": {
+    "input_multiplier": null,
+    "output_multiplier": null,
+    "source": "(not listed yet - placeholder)"
+  },
+  "openai/gpt-4.1-nano": {
+    "input_multiplier": null,
+    "output_multiplier": null,
+    "source": "(not listed yet - placeholder)"
+  },
+  "mistral-ai/mistral-small-2503": {
+    "input_multiplier": null,
+    "output_multiplier": null,
+    "source": "(not listed yet - placeholder)"
+  }
+}
